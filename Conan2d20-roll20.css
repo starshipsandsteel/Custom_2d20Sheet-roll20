@@ -1,0 +1,1146 @@
+/* Configure Tab Buttons */
+/* <!-- January 12, 2022 --> */
+.sheet-PC,
+.sheet-PCdetail,
+.sheet-NPC,
+.sheet-Ref,
+.sheet-GM, {
+    display: none;
+}
+
+.gmtab{
+    background-color:#4a2e22;
+    color:white;
+}
+/*PC SHEET TABLES */
+.sheet-PC .sheet-money{
+    padding: 2px;
+    border: 10px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sheet-PC .sheet-money td{
+    padding: 2px;
+    border: 1px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sheet-PC .sheet-skillstable{
+    padding: 2px;
+    border: 1px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sheet-PC .sheet-skillstable td{
+    border: 1px solid;
+}
+
+.sheet-PC .sheet-armortable{
+    padding: 2px;
+    border: 1px solid;
+    text-align: center;
+
+}
+.sheet-PC .sheet-armorstable td{
+    border: 1px solid;
+}
+.sheet-PC .sheet-armortable th{
+    border: 0px;
+}
+
+
+.sheet-break {
+    align:center;
+    height:5px;
+    width:100%;
+    background-color:#000000;
+}
+.sheet-minorbreak{
+    align:center;
+    height:1px;
+    width:100%;
+    background-color:#000000;
+}
+
+
+
+.sheet-header-image {
+    background-color: transparent; /*transparent */
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/VaesenLogo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: header-right;
+}
+.sheet-footer-image {
+    background-color: transparent; /*transparent */
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/footer.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: footer;
+
+}
+.sheet-footer-image2 {
+    background-color: transparent; /*transparent */
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/footer2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: footer2;
+}
+.sheet-footer-image3 {
+    background-color: transparent; /*transparent */
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/footer2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-area: footer3;
+}
+.sheet-areaheader {
+    text-align: center;
+    background-color: rgba(109, 109, 109, 0.5);
+    font-style:italic;
+    font-size:medium;
+    color:#4a2e22;
+}
+.sheet-biglabel{
+    padding-right:1em;
+    font-size:medium;
+    color:#4a2e22;
+}
+.sheet-normallabel{
+    padding-right:1em;
+    color:#4a2e22;
+    font-size:small;
+    font-weight:bold;
+}
+.sheet-normallabel-nb{
+    padding-right:1em;
+    color:#4a2e22;
+    font-size:small;
+    font-weight:normal;
+}
+.sheet-longtext {
+    width: 45em;
+}
+.sheet-longtext2 {
+    width: 40em;
+}
+.sheet-med2text{
+    width:28em;
+}
+.sheet-width20 {
+    width:20em;
+}
+.sheet-width30 {
+    width:30em;
+}
+.sheet-width15{
+    width:15em;
+}
+.sheet-width5{
+    width:5em;
+}
+.sheet-medtext2 {
+    width:19em;
+}
+
+.sheet-width10 {
+    width: 10em;
+}
+
+.sheet-tinytext {
+    width: 4em;
+}
+.sheet-vaesentextarea{
+    height:2em;
+    resize: none;
+}
+.sheet-HQupradetextarea{
+    height:5em;
+    width:25em;
+}
+.sheet-HQtextarea{
+    height:20em;
+    resize: none;
+}
+
+.sheet-NPCtextarea{
+    height:60px;
+    resize: none;
+}
+
+.sheet-attribtext {
+    width: 4em;
+}
+
+.sheet-attribtable {
+    font-weight: bold;
+    padding: 5px;
+    font-size: large;
+    color:#4a2e22;
+}
+.sheet-nametext{
+    width: 15em;
+    font-size:x-large;
+    color:#4a2e22;
+}
+.sheet-nametext-med{
+    width: 10em;
+    font-size:xx-large;
+    color:#4a2e22;
+}
+.sheet-resourcetext{
+    width: 2em;
+    font-size:large;
+    text-align:center;
+    color:#4a2e22;
+}
+.sheet-widebutton{
+    width:50px;
+}
+
+/* CONAN text styling */
+.sheet-conanheader {
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+    padding-right: 1em;
+    border: none;
+    background: transparent;
+    text-align: center;
+    text-shadow: 1px 1px rgb(255, 255, 255)
+}
+.sheet-talentlabel{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background: transparent;
+    text-align: left;
+    size: 4em;
+    width:10em;
+    text-shadow: 1px 1px rgb(255, 255, 255)
+}
+.sheet-talentlabel-5{
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background: transparent;
+    text-align: left;
+    size: 4em;
+    width:8em;
+    text-shadow: 1px 1px rgb(255, 255, 255)
+}
+.sheet-attributelabel {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    padding-right: 1em;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+.sheet-attributelabel-5 {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background: transparent;
+    text-align: center;
+    width: 5em;
+}
+.sheet-NPC-table TD{
+    text-align:center;
+}
+.sheet-NPC-attributelabel {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    padding-right: 1em;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+.sheet-tinytext {
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+    padding-right: 1em;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+.sheet-attributelabel-NP {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    border: 1px;
+    background: transparent;
+    text-align: left;
+    size: 2em;
+}
+.sheet-attributeheader {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    width:10em;
+    border: none;
+    background: transparent;
+}
+.sheet-weaponheader {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    width:8em;
+    border: none;
+    background: transparent;
+    text-shadow: 1px 1px rgb(255, 255, 255)
+}
+.sheet-doomlabel {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    border: none;
+    text-align: center;
+    width: 2em;
+}
+.sheet-skilllabel {
+    font-size: small;
+    font-weight: bolder;
+    color: black;
+    padding-right: 1em;
+    border: none;
+    background: transparent;
+    text-align: center;
+    width:30em;
+}
+.sheet-skillrow {
+    text-align: right;
+}
+.sheet-skillvaluecell{
+    width: 2em;
+}
+
+.sheet-die-value{
+    width: 1em;
+}
+.sheet-dielabel {
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+
+.sheet-talentarea {
+    font-size: small;
+    width: 36em;
+    height: 5em;
+    resize: none;
+}
+.sheet-spellarea {
+    font-size: small;
+     height: 5em;
+    resize: none;
+}
+
+.sheet-big-value {
+    width:10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    border: none;
+    text-align: center;
+}
+
+
+.sheet-charname_label {
+    width: 14em;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: none;
+    background: transparent;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+
+
+}
+
+
+/*****************/
+/* PC-GridAreas  */
+/*****************/
+.sheet-charactername {
+    grid-area: character-name;
+    background-image: url("https://i.imgur.com/g58C9Bk.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sheet-skillspanel {
+    grid-area: skills-panel;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Three Clumn*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+
+.sheet-newskillspanel{
+    grid-area: newskills-panel;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*two Column*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-doompanel {
+    grid-area: doom-panel;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-stresspanel {
+    grid-area: stress-panel;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-fortunepanel {
+    grid-area: fortune-panel;
+    background-image: url("https://i.imgur.com/udcPL6f.png"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+
+.sheet-diecontrol{
+    grid-area:die-control;
+    background-image: url("https://i.imgur.com/udcPL6f.png"); /*One column*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-talentpanel {
+    grid-area: talent-panel;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-momentumpanel {
+    grid-area: momentum-panel;
+    background-image: url("https://i.imgur.com/udcPL6f.png"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-quickmomentumpanel {
+    grid-area: quickmomentum-panel;
+    background-image: url("https://i.imgur.com/udcPL6f.png"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-weaponpanel {
+    grid-area: weapon-panel;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Three Clumn*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-armorpanel{
+    grid-area:armor-panel;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Three Column*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+
+/*PC Sheet Layout*/
+.sheet-tabstoggle[value="PC"] ~ div.sheet-PC {
+    display: grid;
+    width: 835px;
+    height: auto;
+    border: 2px solid black;
+    grid-template-columns: [gutter] 5px [momentum] 270px [fortune] 240px [diecontrol] 300px [gutter] 5px;
+    grid-template-rows: [gutter] 5px [Name] 5em [Stress] auto [Momentum] auto [Weapons] auto [newSkills] auto [talents] auto [gutter] 5px;
+    grid-template-areas:
+        ". . . . ."
+        ". character-name character-name armor-panel ."
+        ". stress-panel stress-panel armor-panel ."
+        ". momentum-panel fortune-panel armor-panel . "
+        ". weapon-panel weapon-panel weapon-panel ."
+        ". newskills-panel newskills-panel newskills-panel ."
+        ". talent-panel talent-panel talent-panel ."
+        ". . . . .";
+    grid-gap: 2px;
+    background-color: rgb(19, 6, 6);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/**********************/
+/*PC Detail Grid Areas*/
+/**********************/
+.sheet-spellpanel {
+    grid-area: spell-panel;
+    background-image: url("https://i.imgur.com/CGNVacH.png"); /*Three Clumn*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-equipmentpanel {
+    grid-area: equipment-panel;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Three Clumn*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-alchemypanel {
+    grid-area: alchemy-panel;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Three Clumn*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-detailpanel {
+    grid-area: detail-panel;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*two Column*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;  
+}
+.sheet-attributespanel {
+    grid-area: attributes-panel;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*two Column*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-moneypanel {
+    grid-area: money-panel;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*two Column*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-renownpanel {
+    grid-area: renown-panel;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*two Column*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+/*PC Detail layout*/
+.sheet-tabstoggle[value="PCdetail"] ~ div.sheet-PCdetail {
+    display: grid;
+    width: 835px;
+    height: auto;
+    border: 2px solid black;
+    grid-template-columns: [gutter] 5px [col1] 408px [col2] 407px [gutter] 5px;
+    grid-template-rows: [gutter] 5px [row1] auto [row2] auto [row3] auto [row4] auto [rpw5] auto [gutter] 5px;
+    grid-template-areas:
+        ". . . . "
+        ". detail-panel attributes-panel ."
+        ". equipment-panel equipment-panel ."
+        ". money-panel renown-panel ."
+        ". alchemy-panel alchemy-panel ."
+        ". spell-panel spell-panel ."
+        ". . . . ";
+    grid-gap: 2px;
+    background-color: rgb(19, 6, 6);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*****************/
+/* NPC-GridAreas */
+/*****************/
+.sheet-NPCName {
+    grid-area: NPC-Name;
+    background-image: url("https://i.imgur.com/g58C9Bk.png");
+    background-size: contain;
+    background-repeat: repeat-y;
+    padding-left: 1em;
+}
+.sheet-NPCAttribs {
+    grid-area: NPC-Attribs;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+}
+.sheet-NPCSkills {
+    grid-area: NPC-Skills;
+}
+.sheet-NPCEquip {
+    grid-area: NPC-Equipment;
+}
+.sheet-NPCMisc {
+    grid-area: NPC-Misc;
+}
+.sheet-NPCdiecontrol{
+    grid-area: die-control;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+
+}
+
+.sheet-NPCstresspanel{
+    grid-area: NPC-stress;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+}
+.sheet-NPCsoakpanel{
+    grid-area: NPC-soak;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+}
+.sheet-NPCdoomspendpanel{
+    grid-area: NPC-doomspends;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+
+}
+.sheet-NPCspecialabilities{
+    grid-area: NPC-specialabilities;
+    background-image: url("https://i.imgur.com/FCx2vvW.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+
+}
+.sheet-NPCmomentumpanel{
+    grid-area: NPC-momentum;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+
+}
+.sheet-NPCweapons{
+    grid-area: NPC-weapons;
+    background-image: url("https://i.imgur.com/solKVML.png"); /*Desaturated Paper Teture*/
+    padding: 1em;
+}
+.sheet-NPCnotes{
+    grid-area: NPC-weapons;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+}
+
+
+/*NPC Sheet Layout*/
+.sheet-tabstoggle[value="NPC"] ~ div.sheet-NPC {
+    display: grid;
+    width: 790px;
+	height: auto;
+    border: 2px solid black;
+    grid-template-columns: [gutter] 5px [Body-Left] 385px [break] 5px [body-right] 385px [gutter] 5px;
+    grid-template-rows: [gutter] 5px [Name] auto [Attribs] auto [armor] auto [stress] auto [weapons] auto [notes] auto [gutter] 5px;
+    grid-template-areas:
+        ". . . . ."
+        ". NPC-Name . NPC-momentum ."
+        ". NPC-Attribs . die-control ."
+        ". NPC-soak . NPC-doomspends ."
+        ". NPC-stress . NPC-specialabilities ."
+        ". NPC-weapons NPC-weapons NPC-weapons ."
+        ". NPC-notes NPC-notes NPC-notes ."
+        ". . . . ."
+        ;
+
+    grid-gap: 2px;
+    background-color: rgb(19, 6, 6);
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*GM - Grid Areas*/
+.sheet-gmpanel{
+    grid-area: gm-panel;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-combatpanel{
+    grid-area: combat-panel;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-playerpanel{
+    grid-area: player-panel;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+.sheet-swordfooter {
+    grid-area: sword-footer;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+
+/*GM Sheet Layout*/
+.sheet-tabstoggle[value="GM"] ~ div.sheet-GM {
+    display: grid;
+    width: 400px;
+    height: auto;
+    border: 2px solid black;
+    grid-template-columns: [gutter] 1em [panelcol] auto [combatpanel] auto [gutter] 1em;
+    grid-template-rows: [gutter] 1em [panelrow] auto [playerpanel] auto [swordfooter] auto [gutter] 1em;
+    grid-template-areas:
+        ". . . ."
+        ". gm-panel combat-panel ."
+        ". player-panel player-panel ."
+        ". sword-footer . ."
+        ". . . .";
+    grid-gap: 10px;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+.sheet-actionspanel{
+    grid-area: actions-panel;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 1em;
+}
+
+.sheet-tabstoggle[value="Ref"] ~ div.sheet-Ref {
+    display: grid;
+    width: 835px;
+    height: auto;
+    border: 2px solid black;
+    grid-template-columns: [gutter] 1em [panelcol] auto [gutter] 1em;
+    grid-template-rows: [gutter] 1em [panelrow] auto [panelrow2] auto [gutter] 1em;
+    grid-template-areas:
+        ". . . "
+        ". momentum-panel ."
+        ". actions-panel . "
+        ". . . ";
+    grid-gap: 10px;
+    background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vasen_background.jpg"); /*Desaturated Paper Teture*/
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*Skill Roll Template*/
+.sheet-rolltemplate-conanroll div.sheet-conan-container{
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/OxZbdag.png");
+    background-size: cover;
+}
+.sheet-rolltemplate-conanroll .sheet-conan-roll-header{
+    background-color: transparent;
+    font-weight: bold;
+	color: #000;
+	font-style:italic;
+    font-size:X-large;
+    text-align:center;
+}
+.sheet-rolltemplate-conanroll .sheet-conan-dice{
+    background-color: #ffffff00;
+	color: #000;
+	font-style:italic;
+    font-size:medium;
+    text-align:center;
+}
+.sheet-rolltemplate-conanroll .sheet-conan-type{
+    font-size:large;
+    text-align: center;
+	padding: 5px;
+	font-style: bold;
+}
+.sheet-rolltemplate-conanroll .sheet-conan-roll-result{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:#422d22;  
+    font-weight:bold;
+}
+.sheet-rolltemplate-conanroll .sheet-conan-fail{
+    font-size:large;
+    text-align: center;
+	padding: 5px;
+    font-style: bold;
+    color: black;
+    background-color: red;
+}
+.sheet-rolltemplate-conanroll .sheet-conan-success{
+    font-size:large;
+    text-align: center;
+	padding: 5px;
+    font-style: bold;
+    color: white;
+    background-color: green;
+}
+
+
+/*CD roll Template*/
+.sheet-rolltemplate-CDroll div.sheet-CD-container{
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/RIfekk9.png");
+    background-size: cover;
+    text-align:center;
+}
+.sheet-rolltemplate-CDroll div.sheet-reroll{
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/RIfekk9.png");
+    background-size: cover;
+}
+
+
+.sheet-rolltemplate-CDroll .sheet-CD-roll-header{
+    background-color: transparent;
+    font-weight: bold;
+	color: #000;
+	font-style:italic;
+    font-size:X-large;
+    text-align:center;
+}
+.sheet-rolltemplate-CDroll .sheet-CD-dice{
+    background-color: #ffffff00;
+	color: #000;
+	font-style:italic;
+    font-size:medium;
+    text-align:center;
+}
+.sheet-rolltemplate-CDroll .sheet-CD-type{
+    text-align: center;
+	padding: 5px;
+	font-style: bold;
+}
+.sheet-rolltemplate-CDroll .sheet-CD-smalltext{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#422d22;  
+	font-size:xx-small;
+}
+/*CD momentum spend Template*/
+.sheet-rolltemplate-momentumspend div.sheet-momentum-container{
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/psP8f3J.png");
+    background-size: cover;
+}
+.sheet-rolltemplate-momentumspend .sheet-momentum-header{
+    background-color: transparent;
+    font-weight: bold;
+	color: #000;
+	font-style:italic;
+    font-size:X-large;
+    text-align:center;
+}
+
+.sheet-rolltemplate-momentumspend .sheet-momentum-amount{
+    background-color: transparent;
+    font-weight: bold;
+	color: rgb(250, 0, 0);
+	font-style:italic;
+    font-size:xx-large;
+    text-align:center;
+}
+
+.sheet-rolltemplate-momentumspend .sheet-momentum-spent{
+    text-align: center;
+    font-size:medium;
+    font-weight: bold;
+	padding: 5px;
+	font-style: bold;
+}
+.sheet-rolltemplate-momentumspend .sheet-momentum-smalltext{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#422d22;  
+	font-size:xx-small;
+}
+
+/*gold spend Template*/
+.sheet-rolltemplate-goldspent div.sheet-gold-container{
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/q5OAHCB.png");
+    background-size: cover;
+}
+.sheet-rolltemplate-goldspent .sheet-gold-header{
+    background-color: transparent;
+    font-weight: bold;
+    color: #000;
+    padding-top: 4em;
+	font-style:italic;
+    font-size:X-large;
+    text-align:center;
+}
+
+.sheet-rolltemplate-goldspent .sheet-gold-amount{
+    background-color: transparent;
+    font-weight: bold;
+	color: rgba(87, 74, 0, 0.863);
+	font-style:italic;
+    font-size:xx-large;
+    text-align:center;
+}
+
+.sheet-rolltemplate-goldspent .sheet-gold-spent{
+    text-align: center;
+    font-size:medium;
+    font-weight: bold;
+	padding: 15px;
+	font-style: bold;
+}
+.sheet-rolltemplate-goldspent .sheet-gold-smalltext{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#422d22;  
+	font-size:xx-small;
+}
+/*cover spend Template*/
+.sheet-rolltemplate-cover div.sheet-cover-container{
+    border: 0px solid #000;
+    background-image: url("https://imgur.com/NlftPuY.png");
+    background-size: cover;
+}
+.sheet-rolltemplate-cover .sheet-cover-header{
+    background-color: transparent;
+    font-weight: bold;
+    color: #000;
+    padding-top: 4em;
+	font-style:italic;
+    font-size:X-large;
+    text-align:center;
+}
+
+.sheet-rolltemplate-cover .sheet-cover-amount{
+    background-color: transparent;
+    font-weight: bold;
+	color: rgba(87, 74, 0, 0.863);
+	font-style:italic;
+    font-size:xx-large;
+    text-align:center;
+}
+
+.sheet-rolltemplate-cover .sheet-cover-spent{
+    text-align: center;
+    font-size:medium;
+    font-weight: bold;
+	padding: 15px;
+	font-style: bold;
+}
+.sheet-rolltemplate-cover .sheet-cover-smalltext{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#422d22;  
+	font-size:xx-small;
+}
+
+
+/*Doom Pool */
+.sheet-rolltemplate-doompool div.sheet-doompool-container{
+    height: 300px;
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/L88nEsO.png");
+    background-size: cover;
+}
+.sheet-rolltemplate-doompool .sheet-doompool-header{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    font-size:large;
+    text-align:center;
+}
+.sheet-rolltemplate-doompool .sheet-doompool-total{
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(27, 0, 0);
+    font-size:XX-large;
+    text-align:center;
+}
+/*DOOM SPEND*/
+.sheet-rolltemplate-doomspend div.sheet-doomspend-container{
+    height: 175px;
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/sXHOBTw.png");
+    background-size: contain;
+}
+.sheet-rolltemplate-doomspend .sheet-doomspend-header{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    font-size:large;
+    text-align:center;
+}
+.sheet-rolltemplate-doomspend .sheet-doomspend-total{
+    padding-top:.5em;
+    padding-left:1em;
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(196, 0, 0);
+    font-size:100px;
+    text-align:center;
+}
+
+/*Talent Roll Template*/
+.sheet-rolltemplate-conantalent div.sheet-conan-talent-container{
+    border: 0px solid #000;
+    background-image: url("https://i.imgur.com/H2ZXpMR.png");
+    background-size: cover;
+}
+.sheet-rolltemplate-conantalent .sheet-conan-talent-header{
+    background-color: transparent;
+    font-weight: bold;
+	color: #000;
+	font-style:italic;
+    font-size:X-large;
+    text-align:center;
+    padding-top: 1em;
+}
+.sheet-rolltemplate-conantalent .sheet-conan-talent-name{
+    background-color: #ffffff00;
+	color: #000;
+	font-style:italic;
+    font-size:large;
+    text-align:center;
+}
+.sheet-rolltemplate-conantalent .sheet-conan-talent-cost{
+    text-align: center;
+	padding: 5px;
+	font-style: bold;
+}
+.sheet-rolltemplate-conantalent .sheet-conan-talent-desc{
+    text-align: center;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:#422d22;  
+    font-weight:bold;
+}
+
+/*Repeating Setions*/
+.repcontrol {
+    display: flex;
+    margin-top: 3px;
+}
+  
+.repcontrol .repcontrol_edit {
+    margin-left: auto;
+    order: 1;
+}
+  
+.repcontrol button {
+    background: transparent;
+    color: #555;
+    border-radius: 0;
+    border-color: #999;
+    transition: all 0.2s;
+    font-family: pictos;
+    font-size: 0;
+    font-weight: bold;
+    padding: 5px 3px 2px;
+    line-height: 8px;
+}
+  
+.repcontrol button:hover {
+    color: green;
+    border-color: green;
+    background: #ddd;
+}
+  
+.repcontrol button.repcontrol_edit::after {
+    content: "(";
+}
+  
+.repcontrol button.repcontrol_add::after {
+    content: "&";
+}
+  
+.repcontrol button.repcontrol_edit::after, .repcontrol button.repcontrol_add::after {
+    font-size: 20px;
+}
+  
+.repcontainer.editmode + .repcontrol button.repcontrol_edit::after {
+    content: ")";
+}
+
+.itemcontrol {
+    z-index: 20;
+}
+
+
+
+/*Roll Button Styling*/
+
+button[type="roll"].sheet-blankroll:before{
+    content: '';
+}
+
+/*Basic d6 Vaesen Roll Button */
+button[type="roll"].sheet-vaesendie:before{
+    content: '';
+}
+
+button[type="roll"].sheet-vaesendie{
+  background-image: url("https://raw.githubusercontent.com/Roll20/roll20-character-sheets/master/Vaesen/Images/vaesendie.png"); 
+  background-size: 26px 26px;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  border-style: none;
+  background-color: transparent;
+  margin-left: 5px;
+  background-position: 0;
+}
+button[type="roll"].sheet-vaesendie:hover{
+    background-position: 0;
+    background-image: url("https://i.imgur.com/mNZBIFR.png"); 
+    background-color: transparent;
+}
+button[type="roll"].sheet-vaesendie:active{
+    background-position: 0;
+    background-image: url("https://i.imgur.com/4DAXFM7.png"); 
+    background-color: transparent;
+}
+
+
+/*Basic d66 Vaesen Roll Button */
+button[type="roll"].sheet-vaesend66:before{
+    content: '';
+}
+
+button[type="roll"].sheet-vaesend66{
+  background-image: url("https://i.imgur.com/c82KF2h.png"); 
+  background-size: 41px 26px;
+  background-repeat: no-repeat;
+  width: 41px;
+  height: 26px;
+  border-style: none;
+  background-color: transparent;
+  margin-left: 5px;
+  background-position: 0;
+}
+button[type="roll"].sheet-vaesend66:hover{
+    background-position: 0;
+    background-image: url("https://i.imgur.com/yauwICZ.png"); 
+    background-color: transparent;
+}
+button[type="roll"].sheet-vaesend66:active{
+    background-position: 0;
+    background-image: url("https://i.imgur.com/mZSnDi6.png"); 
+    background-color: transparent;
+}
+
